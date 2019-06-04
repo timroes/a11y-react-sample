@@ -1,0 +1,29 @@
+.header {
+  height: 52px;
+  background-color: #282c34;
+  box-shadow: 0 0 2px #282c34;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fefefe;
+}
+
+.header__logo {
+  height: 42px;
+  pointer-events: none;
+}
+
+.header__title {
+  font-size: 1.2rem;
+  font-weight: normal;
+  flex: 1 1 auto;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+}
+
+.header__actions > * {
+  margin-right: 0.5em;
+}
